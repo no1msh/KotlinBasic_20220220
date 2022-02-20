@@ -25,4 +25,10 @@
         android:id="@+id/btnVariablePractice"
         android:text="변수 연습하기" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConditionPractice"
+        android:text="조건문 연습하기" />
+
 </LinearLayout>

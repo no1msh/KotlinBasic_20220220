@@ -46,6 +46,17 @@ class MainActivity : AppCompatActivity() {
         myName = "문다성"  // 추가로 다시 대입해도 됨.
 
 //        friendName = "문상민"  // 한번 넣은거로 계속 사용. val 이기 때문에
+        Toast.makeText(this, myName, Toast.LENGTH_SHORT).show()
     }
+        
+    btnConditionPractice.setOnClickListener { 
+        
+        val userAge = 15
+        
+        if ( userAge >= 20) {
+
+            Toast.makeText(this, "성인입니다.", Toast.LENGTH_SHORT).show()
+        }
+    }    
     }
 }
