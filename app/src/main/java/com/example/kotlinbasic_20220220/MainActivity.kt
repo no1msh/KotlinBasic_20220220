@@ -97,5 +97,14 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "연봉 OR 출퇴근 OK", Toast.LENGTH_SHORT).show()
             }
         }
+
+        btnCalculateAge.setOnClickListener {
+
+//            1. edtBirthYear에 입력된 값을 받아오기 => 변수에 저장하기
+
+            val inputBirthYear = edtBirthYear.text.toString()
+
+            Log.d("입력된 년도", inputBirthYear)
+        }
     }
 }
