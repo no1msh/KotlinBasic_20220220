@@ -29,6 +29,23 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    btnVariablePractice.setOnClickListener {
 
+//        var / val 에 대한 연습 / 체험
+
+        var myName : String // 내용 교체가 가능
+        val friendName : String // 한번 대입하면 값으로 고정
+//        myName - 내이름 , friendName - 친구 이름
+
+        myName = "문상현"
+
+        friendName = "문현상"
+
+//        내이름 / 친구이름 다시 대입 ( 데이터 변경 )
+
+        myName = "문다성"  // 추가로 다시 대입해도 됨.
+
+//        friendName = "문상민"  // 한번 넣은거로 계속 사용. val 이기 때문에
+    }
     }
 }
