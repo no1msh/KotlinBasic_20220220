@@ -8,33 +8,33 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnLog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLog"
-        android:text="로그찍어보기"/>
+        android:text="로그찍어보기" />
 
     <Button
+        android:id="@+id/btnToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnToast"
         android:text="토스트 띄우기" />
 
     <Button
+        android:id="@+id/btnVariablePractice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnVariablePractice"
         android:text="변수 연습하기" />
 
     <Button
+        android:id="@+id/btnConditionPractice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnConditionPractice"
         android:text="조건문 연습하기" />
 
     <Button
+        android:id="@+id/btnConditionPractice2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnConditionPractice2"
         android:text="조건문 연습하기2" />
 
     <TextView
@@ -50,9 +50,27 @@
         android:inputType="number" />
 
     <Button
+        android:id="@+id/btnCalculateAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나이 판정하기"
-        android:id="@+id/btnCalculateAge"/>
+        android:text="나이 판정하기" />
+
+    <EditText
+        android:id="@+id/edtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자유입력" />
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력 내용 반영" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자유 입력한 문구가 여기에 반영됩니다." />
 
 </LinearLayout>
